@@ -1,0 +1,87 @@
+/* Tampilan Header */
+body {
+    font-family: "Times New Roman", Times, serif; /* Gunakan font yang lebih formal */
+    background-color: #333; /* Warna latar belakang gelap */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #444; /* Warna latar belakang lebih gelap */
+    color: #fff;
+    font-size: 28px;
+    border-bottom: 2px solid #FF69B4;
+}
+
+/* Tabel Data */
+table {
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #555; /* Warna latar belakang tabel yang lebih gelap */
+    color: #fff; /* Warna teks putih */
+}
+
+table, th, td {
+    border: 2px solid #FF69B4;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #FF69B4;
+}
+
+/* Form Tambah/Edit */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #555; /* Warna latar belakang form yang lebih gelap */
+    border: 2px solid #FF69B4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px #FF69B4;
+    color: #fff; /* Warna teks putih */
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #FF69B4;
+    border-radius: 3px;
+    background-color: #333; /* Warna latar belakang input yang lebih gelap */
+    color: #fff; /* Warna teks putih */
+}
+
+form input[type="submit"] {
+    background-color: #FF69B4;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Tautan Aksi */
+a {
+    text-decoration: none;
+    color: #FF69B4;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #444; /* Warna latar belakang footer yang lebih gelap */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-top: 2px solid #FF69B4;
+}
